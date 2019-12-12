@@ -33,3 +33,7 @@ cacheSolve <- function(x, ...) {
   m
 }
   
+## Example:
+temp1 <- matrix(c(9,8,3,4), nrow = 2, ncol = 2)
+temp2 <- makeCacheMatrix(temp1)
+cacheSolve(temp2)
